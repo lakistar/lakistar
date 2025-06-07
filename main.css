@@ -1,0 +1,53 @@
+*{
+  font-family: monospace;
+  margin: 10px;
+
+}
+
+
+p{
+  font-size: 2em;
+}
+
+ul{
+  font-size: 1.8em;
+}
+body{
+  background-color: #006C00;
+
+}
+
+a{
+  font-size: 3em;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: yellow;
+  color: black;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px 20px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+h1{
+  color: yellow;
+  text-align: center;
+  font-size: 2em;
+    padding: 10px;
+}
+h2{
+  color: yellow;
+  font-size: 2em;
+  padding: 10px;
+}
+#i{
+  display: block;
+  border-radius: 15px;
+  width: 300px;
+  height: 500px;
+  box-shadow: 0 0 15px black;
+  float: right;
+}
