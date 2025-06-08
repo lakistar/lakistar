@@ -1,53 +1,147 @@
-*{
-  font-family: monospace;
-  margin: 10px;
-
+html {
+  scroll-behavior: smooth;
 }
-
-
-p{
-  font-size: 2em;
-}
-
-ul{
-  font-size: 1.8em;
+* {
+  padding: 0;
+  margin: 0;
 }
 body{
-  background-color: #006C00;
-
+  height: 2000px;
 }
-
-a{
-  font-size: 3em;
-  display: inline-block;
-  border-radius: 15px;
-  background-color: yellow;
-  color: black;
-  box-shadow: 2px 2px 5px black;
-  padding: 10px 20px;
-  text-decoration: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-
-}
-h1{
-  color: yellow;
+#h{
+  width: 100%;
+  height: 100px;
+  background-color: #79b1cd;
+  color: white;
+  border: 2px solid silver;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  font-size: 2em;
-    padding: 10px;
+  font-family: 'REM', sans-serif;
 }
-h2{
-  color: yellow;
-  font-size: 2em;
+img{
+  width: 100%;
+  height: 700px;
+  border-bottom: 4px solid silver;
+   box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.5);
+}
+#g{
+  color: #00a3f5;
+  size: 3em;
+  float: left;
+  position: absolute;
+  top: 50px;
+  padding: 70px;
+  text-align: center;
+  right: 29%;
+  font-family: 'REM', sans-serif;
+  text-decoration: overline;
+}
+#inst{
+  box-shadow: none;
+  border-bottom: none;
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  top: 50px;
+  left: 20px;
+}
+#about{
+  font-size: 60px;
+  font-weight: bold;
+  background: linear-gradient(to top, #5188a6, #253d66); /* Градієнт */
+  -webkit-background-clip: text; /* "Приклеїти" фон до тексту */
+  -webkit-text-fill-color: transparent; /* Зробити сам текст прозорим */
+  color: white;
+  text-align: center;
+  position: relative;
+  right: 30%;
+  font-family: 'REM', sans-serif;
   padding: 10px;
+  text-decoration: underline;
 }
-#i{
-  display: block;
-  border-radius: 15px;
-  width: 300px;
+p{
+  width: 50%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(to top, #5188a6, #253d66); /* Градієнт */
+  -webkit-background-clip: text; /* "Приклеїти" фон до тексту */
+  -webkit-text-fill-color: transparent; /* Зробити сам текст прозорим */
+  font-family: 'REM', sans-serif;
+  margin: 10px;
+}
+#vr{
+  border-bottom: none;
+  position: absolute;
+  top: 930px;
+  left: 750px;
+  height: 300px;
+  width: 600px;
+  margin:  20px;
+}
+#line{
+  width: 100vw;
+  height: 4px;
+  background-color: silver;
+}
+.fon{
+  background-color: #79b1cd;
+  width: 100vw;
   height: 500px;
-  box-shadow: 0 0 15px black;
-  float: right;
+  border-bottom: 4px solid silver;
+}
+.b{
+  color: white;
+  background-color: silver;
+  border-radius: 15px;
+  top: -400px;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+  left: 30%;
+  text-decoration-line: none;
+}
+.b:hover{
+  background-color: black;
+}
+#x{
+  left: 25%;
+  position: absolute;
+  top: 1600px;
+  margin: 20px;
+}
+#president{
+  border: 2px solid black;
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  top: 1340px;
+  right: 1100px;
+  margin: 20px;
+  border-bottom: none;
+}
+#block{
+  display: block;
+  bottom: 18px;
+  position: relative;
+  width: 100vw;
+  height: 200px;
+  background-color: black;
+}
+.contact-info{
+  margin: 20px;
+  position: absolute;
+  top: 1850px;
+  width: 100vw;
+}
+.brand-info{
+  position: absolute;
+  top: 1900px;
+  left: 70%;
+}
+#president:hover{
+  cursor: help;
 }
